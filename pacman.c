@@ -7,7 +7,6 @@
 #include<windows.h>
 #include<ctype.h>
  
-//Ok tuşları , Enter ve ESC 'yi tanımladım
 #define LEFT 75 //0x4b=Hexademical version
 #define RIGHT 77 //0x4d
 #define UP 72 //0x48
@@ -92,7 +91,7 @@ void color(int color){
     
 }
  
-//Kordinat fonksiyonum
+//Kordinat fonksiyonu
 void gotoxy(int x,int y){
     COORD kordinat;
     kordinat.X=x;
